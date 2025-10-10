@@ -1,0 +1,14 @@
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.AssemblyInfoInputs.cache
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.AssemblyInfo.cs
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.csproj.CoreCompileInputs.cache
+C:\Users\zS23017378\interface\bin\Debug\net9.0\interface.exe
+C:\Users\zS23017378\interface\bin\Debug\net9.0\interface.deps.json
+C:\Users\zS23017378\interface\bin\Debug\net9.0\interface.runtimeconfig.json
+C:\Users\zS23017378\interface\bin\Debug\net9.0\interface.dll
+C:\Users\zS23017378\interface\bin\Debug\net9.0\interface.pdb
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.dll
+C:\Users\zS23017378\interface\obj\Debug\net9.0\refint\interface.dll
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.pdb
+C:\Users\zS23017378\interface\obj\Debug\net9.0\interface.genruntimeconfig.cache
+C:\Users\zS23017378\interface\obj\Debug\net9.0\ref\interface.dll
