@@ -1,0 +1,55 @@
+body {
+    /* 1. Para centrar el contenedor en la página */
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;   /* Centrado vertical */
+    min-height: 100vh;     /* Ocupa toda la altura de la vista */
+    
+    /* 2. Ligeros detalles de fondo */
+    background-color: #f0f2f5; /* Un fondo suave */
+    font-family: Arial;
+    margin: 0; /* Quitar margen por defecto */
+}
+
+#login-text {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#submit-btn {
+  margin-top: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: right;
+}

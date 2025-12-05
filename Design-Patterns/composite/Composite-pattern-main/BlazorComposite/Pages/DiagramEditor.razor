@@ -1,0 +1,30 @@
+@page "/diagram-editor"
+@using BlazorComposite.Models 
+@inject IJSRuntime JSRuntime
+@implements IDisposable 
+
+<h3>Editor de Diagramas UML (Composite Pattern)</h3>
+
+<div class="toolbar">
+    <button class="btn btn-info" @onclick="() => CurrentTool = ToolType.AddRectangle">Añadir Rectángulo</button>
+    <button class="btn btn-info" @onclick="() => CurrentTool = ToolType.AddCircle">Añadir Círculo</button>
+    
+    <button class="btn btn-warning" @onclick="() => CurrentTool = ToolType.AddUmlClass">Añadir Clase UML</button>
+
+    <button class="btn btn-success" @onclick="LoadClassDiagramTemplate">Cargar Plantilla de Clase</button>
+</div>
+
+<div class="diagram-canvas-container"
+     @onmousedown="OnCanvasMouseDown"
+     @onmousemove="OnCanvasMouseMove"
+     @onmouseup="OnCanvasMouseUp"
+     style="border: 2px solid black; width: 1200px; height: 800px; background-color: #f8f8f8;">
+
+    <svg width="100%" height="100%" @ref="svgElement">
+        @foreach (var shape in CanvasShapes)
+        {
+            @shape.Draw()
+        }
+    </svg>
+</div>
+

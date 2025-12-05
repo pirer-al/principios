@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "nombre": "Pedro",
+    "apellido": "Plascencia",
+    "email": "pedro@example.com",
+    "contra": "123",
+    "fecha_nacimiento": "31/10/2005", 
+    "telefono": "+529213033285",
+    "direccion": {
+      "calle": "Av. Reforma",
+      "numero": "123",
+      "ciudad": "Ciudad de México",
+      "codigo_postal": "01000"
+    },
+    "activo": true
+}
